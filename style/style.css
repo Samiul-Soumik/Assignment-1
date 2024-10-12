@@ -209,3 +209,101 @@
     rgba(255, 255, 255, 0) 100%
   );
 }
+/* my insp */
+.insp-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.insp-s-main h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+.insp-s-main p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px 0px;
+}
+.bbb {
+  margin-top: 90px;
+}
+.yt-video {
+  /* box-sizing: border-box; */
+  /* border: 1px solid rgba(13, 19, 33, 0.2); */
+  /* border-radius: 16px; */
+  margin: 48px 0px;
+  border-radius: 16px;
+}
+/* My Current Target */
+.nmnmnmnmnm {
+  margin-top: 90px;
+}
+
+.web-main {
+  display: flex;
+}
+.web-main h5 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+.web-chi {
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+  margin: 0px 16px;
+  padding: 24px;
+  width: 364px;
+}
+.lolo {
+  background: rgba(0, 76, 232, 0.05);
+}
+.lolol {
+  background: rgba(255, 223, 0, 0.05);
+}
+/* new one */
+.r-main {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.z-aaaa {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* help */
+.last-onee {
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  border-radius: 16px;
+
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  gap: 32;
+  padding: 64px 48px 64px 48px;
+}
