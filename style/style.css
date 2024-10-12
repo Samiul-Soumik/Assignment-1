@@ -60,7 +60,6 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
-  color: ;
 }
 /* hero Section */
 .hero-section {
@@ -83,7 +82,7 @@
 }
 .hero-dep {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -306,4 +305,98 @@
     url(Email);
   gap: 32;
   padding: 64px 48px 64px 48px;
+}
+.last-nnn {
+  margin-top: 90px;
+}
+.last-text h2 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.last-text p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.input-main {
+  display: flex;
+
+  justify-content: center;
+}
+.in-text {
+  /* Frame 7 */
+  position: static;
+  width: 548px;
+  height: 57px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 19px 20px 19px 20px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.kast-inp {
+  /* Frame 8 */
+  position: static;
+  width: 120px;
+  height: 57px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 17px 20px 17px 20px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+}
+.f-main {
+  display: flex;
+  justify-content: space-between;
+}
+.img-ff {
+  display: flex;
 }
