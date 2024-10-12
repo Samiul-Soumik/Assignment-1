@@ -396,7 +396,24 @@
 .f-main {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .img-ff {
   display: flex;
+  gap: 20px;
+}
+.footessr {
+  margin-top: 90px;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+  padding: 0 128px;
+}
+.r-main a {
+  color: black;
+  font-weight: 800;
+}
+.web-chi a {
+  color: black;
+  font-weight: 800;
 }
